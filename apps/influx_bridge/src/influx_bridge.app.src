@@ -1,0 +1,21 @@
+{application, 'influx_bridge',
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {influx_bridge_app, []}},
+  {applications,
+   [
+    kernel
+   ,stdlib
+   ,lager
+   ,worker_pool
+   ,ibrowse
+   ,stillir
+   ]},
+  {env,[]},
+  {modules, [influx_bridge_app]},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.

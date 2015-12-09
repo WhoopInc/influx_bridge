@@ -1,0 +1,6 @@
+-sname influx_bridge
+
+-setcookie influx_bridge_cookie
+
++K true
++A30

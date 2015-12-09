@@ -1,0 +1,11 @@
+[{<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.7">>},1},
+ {<<"ibrowse">>,{pkg,<<"ibrowse">>,<<"4.2.2">>},0},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.0.2">>},0},
+ {<<"stillir">>,
+  {git,"https://github.com/heroku/stillir.git",
+       {ref,"71cd4803bf7105927e0706a59bc2d6c8c328e072"}},
+  0},
+ {<<"worker_pool">>,
+  {git,"https://github.com/inaka/worker_pool.git",
+       {ref,"dfa80d002988c446e08ccb88f723e915685a02f5"}},
+  0}].
