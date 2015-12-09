@@ -1,6 +1,6 @@
 {application, 'influx_bridge',
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
+ [{description, "Connects UDP writers to InfluxDB"},
+  {vsn, "1.0.0"},
   {registered, []},
   {mod, {influx_bridge_app, []}},
   {applications,
